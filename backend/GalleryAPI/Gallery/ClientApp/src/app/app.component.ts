@@ -1,17 +1,9 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-root',
-  template: `
-
-  <router-outlet></router-outlet>
-
-  `,
-  styles: []
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'projectGallery';
-
-
+  title = 'app';
 }

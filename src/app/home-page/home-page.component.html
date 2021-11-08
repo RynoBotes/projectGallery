@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="home-page.component.css">
+</head>
+<body>
+    <header class = "header">
+        <div class="header-item">
+          <a class="back" routerLink = "/">Home</a>
+        </div>
+        
+      </header>
+    <div class="container">
+    <div id="home" class="flex-center flex-column">
+      <div id="heading">
+        <h1>Gallery</h1>
+      </div>
+       <div id="toolbar" class="toolbar-container">
+        
+          <div id="toolbar-item" >
+           <a class="btn" routerLink = "/upload.html">Upload</a>
+          </div>
+          <div id="toolbar-item" >
+           <a class="btn">Browse</a>
+          </div>
+        
+        </div>
+        <div id="photo-container" class = "view-container">
+          <div id="photo-slide" class="slide-show">
+            <div id="first">
+              <img src="" alt="first">
+            </div>
+            
+            <div id="second">
+              <img src="" alt="second">
+            </div>
+          </div>
+            
+        </div>
+
+    </div>
+  </div>
+</body>
+</html>
+
+<router-outlet></router-outlet>

@@ -1,1 +1,99 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    background:
+    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+    background-color: slategray;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+
+    font-size: 65%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: black;
+    padding-top: 0rem;
+    width: 100%;
+    height: 4rem;
+}
+.back{
+    display: flex;
+    flex-direction: row;
+    background-color: #56a5eb;
+    width: 200%;
+    height: 2.9rem;
+    padding-top: 1.1rem ;
+    justify-content: space-around;
+
+
+}
+.back:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 5rem;
+    color: #535353;
+    margin-bottom: 3rem;
+}
+
+h1 > span{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+.container > *{
+    width: 100%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 1rem;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #afcce6;
+    background-color: rgb(41, 39, 39);
+    border-radius: 15rem;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 rgba(176, 177, 177, 0.5);
+    transform: translateY(-0.1rem);
+    transition: 100ms;
+
+}
